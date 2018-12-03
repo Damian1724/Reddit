@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-var messangeModel = new Schema({
+var messageModel = new Schema({
    messange:{
      type:String
    },
@@ -10,4 +10,4 @@ var messangeModel = new Schema({
    date:{type:String}
 });
 
-module.exports = mongoose.model('Text',messangeModel);
+module.exports = mongoose.model('messages',messageModel);
